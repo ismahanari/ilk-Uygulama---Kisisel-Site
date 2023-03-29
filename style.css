@@ -1,0 +1,165 @@
+/*  css dosyası */
+/* boşlukları sıfırla */
+
+
+*{
+    margin: opx;
+    padding: opx;
+}
+#sayfa{
+    width: 400px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+
+}
+/*Banner*/
+#benner{
+    width: 398px;
+    min-height: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: darksalmon;
+    margin: auto;
+
+}
+/*logo*/
+#logo{
+    width: 60px; 
+    min-height: 10px;
+    border-style: dotted;
+    border-width: 0px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+#foto{
+    width: 60px;
+    
+}
+
+/*sosyal*/
+#sosyal{
+    width: 180px;
+    height: 40px;
+    border-width: 1px;
+    float: right;
+    position:relative;
+    top: 50px;
+    right: 10px;
+
+}
+#ikon{
+    float: right;
+    margin-left: 10px;
+    width: 40px;
+}
+/*açıklama*/
+#anamenü{
+    width: 398px;
+    height: 50px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: rgb(252, 169, 142);
+    margin: auto;
+    
+
+}
+#anamenü ul{
+    list-style-type: none;
+    
+}
+#anamenü ul li {
+    border-style: solid;
+    border-width: 3px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: crimson;
+    background-color: aliceblue;
+    float: left;
+    padding: 2px;
+    margin-left: 5px;
+    position: relative;
+    right: 15px;
+    top: -4px;
+    text-align: center;
+
+}
+#anamenü ul a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:12px;
+
+}
+#anamenü ul a:link{
+    color: crimson;
+}
+#anamenü ul a:visited{
+    color: brown;
+}
+#anamenü ul a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+#anamenü ul a:active{
+    color: darkmagenta;
+}
+/* içerik ve yan menü */
+#icerik{
+    width: 300px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: rgb(253, 189, 167);
+    float: left;
+
+}
+#yanmenü{
+    width: 96px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: rgba(253, 188, 167, 0.692);
+    float: left;
+
+}
+.resim{
+    float: left;
+    width: 100px;
+    margin: 10px;
+}
+.metin{
+    color: black;
+}
+.baslik{
+    color: crimson;
+    margin:auto;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+/* alt menü */
+#altmenü{
+    width: 398px;
+    min-height: 42px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: rgba(206, 135, 111, 0.692);
+    float: left;
+    text-align: center;
+    color: black;
+
+}
+#altmenü a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+#altmenü a:hover{
+    color: grey;
+    text-decoration: underline;
+}
